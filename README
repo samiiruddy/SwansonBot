@@ -1,10 +1,8 @@
 /*<><><><><><><><><><><><><><><><><><><>
-BOOM BOT v6.6.6
+SwansonBot v. 1.0
 <><><><><><><><><><><><><><><><><><><>*/
 
-	A bot for turntable.fm
-	Dj, welcome users,
-	Call out haters, etc
+Parks and Recreation-tribute Turntable.fm bot.
 
 /*<><><><><><><><><><><><><><><><><><><>
 Requirements
@@ -16,8 +14,9 @@ ttapi - https://github.com/alaingilbert/Turntable-API
 ntwitter (if you want auto tweets) - https://github.com/AvianFlu/ntwitter
 
 /*<><><><><><><><><><><><><><><><><><><>
-Setup
+Setup -- THIS IS FROM BOOMBOT (the SwansonBot source code) I DID NOT WRITE THIS SECTION
 <><><><><><><><><><><><><><><><><><><>*/
+
 
 once you have node running, npm,
 and the ttapi installed:
@@ -37,42 +36,19 @@ path to the saved location,
 node boombot.js
 
 /*<><><><><><><><><><><><><><><><><><><>
-Auto tweeting the current song
-<><><><><><><><><><><><><><><><><><><>*/
-
-This feature is commented out by default for people who could care less about twitter. To use, read below and uncomment the twitter area at the bottom of the boombot.js file.
-
-Create a twitter acct if you don't already have one.
-Then go to dev.twitter.com and sign in with that acct and enable it for development.
-Create a new twitter application. VERY IMPORTANT: BEFORE you request your Oauth tokens set the app to read + write or read + write + direct message. 
-Once you have your token keys, add them to the appropriately commented areas at the bottom of the file.
-
-The bot will now tweet the current track and artist with a #Turntablefm hashtag.
-
-/*<><><><><><><><><><><><><><><><><><><>
 Commands
 <><><><><><><><><><><><><><><><><><><>*/
 Everyone:
 /lyrics - returns the first line of the current song and a link to the full lyrics
 /video - returns a link to a youtube search for the current song playing
-/hello - says hello back
-/dance - gives you a dance partner
-/boombot - information about the bot and how to acquire one
+/hello - says hello Ron Swanson style
 /help - list the commands
-/rules - give the room rules
 /cheer - cheer for the song
 /boo - boo the song
-like a boss - display a random like a boss meme image
-/haters - display a random haters meme image
-meow - random super troopers meow reference
-/rich - one of the best bender quotes ever
-/chuck - random Chuck Norris joke from the icndb API
-/winning - random Charlie Sheen quote from the API
 
 Administrator/"The Master":
 
-All commands for the master require the word boombot to trigger.
-Commands are not required to be in any order: example - This is a really good song boombot. Will trigger the 'boombot good' command.  
+All commands for the master require the word SwansonBot to trigger.
 
 djmode - make the bot get on stage and DJ
 
@@ -80,17 +56,7 @@ getdown - make the bot get off stage
 
 skip - makes the bot skip the track it is playing
 
-good - remind the bot he's a good boy. Maybe he will kill you last during the robot apocalypse
-
-dance - make the bot upvote **this feature is not allowed and is de-activated by default**
-
-voodoo up - switch to the voodoo doll avatar (requires 100 dj points)
-
-kitten up - switch to the green kitten avatar (requires 300 dj points)
-
-alien up - switch to the alien avatar (requires 100 dj points)
-
-vampire up - switch to the vampire avatar (requires 100 dj points)
+catchphrase - Says "I'm Ron F**king Swanson"
 
 addsong - adds the current playing song to the bots playlist
 
@@ -105,6 +71,13 @@ chrome up - sets the bots laptop to ChromeOS
 /*<><><><><><><><><><><><><><><><><><><>
 Notes
 <><><><><><><><><><><><><><><><><><><>*/
+******
+Notes from me: 
+
+My name is Samii, I'm a student at the Syracuse University iSchool and a Parks and Recreation enthusiast. Follow me on twitter at @SamiiRuddy. My Turntable name is DJ&TheTanners. Thanks for using SwansonBot.
+******
+
+Notes from the original source code writer:
 
 I know nothing about node. This was a playground that seemed to be liked. No warranties, no guarantees. I will however help you to the best that I can if you have any issues or find any bugs.
 
