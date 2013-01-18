@@ -163,6 +163,7 @@ bot.on('rem_dj', function (data) {
   }
 }); 
 
+//He now speaks when spoken to even when 'shutup' has been called. He just doesn't announce anymore.
 //chat array calls
 bot.on('speak', function (data) {
      // Respond to "/hello" command
